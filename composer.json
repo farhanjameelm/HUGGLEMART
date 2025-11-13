@@ -1,0 +1,23 @@
+{
+    "name": "hugglingmart/ecommerce",
+    "description": "HugglingMart E-commerce Platform with AI Bargaining",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "HugglingMart\\": "classes/"
+        }
+    },
+    "scripts": {
+        "start": "php -S localhost:8000 -t .",
+        "deploy": "echo 'Deploying HugglingMart...'"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
